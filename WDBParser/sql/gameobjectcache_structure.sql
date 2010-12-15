@@ -40,6 +40,6 @@ CREATE TABLE `gameobjectcache` (
   `QuestItem_4` mediumint(8) unsigned NOT NULL default '0',
   `QuestItem_5` mediumint(8) unsigned NOT NULL default '0',
   `QuestItem_6` mediumint(8) unsigned NOT NULL default '0',
-  `Unk` mediumint(8) unsigned NOT NULL default '0',
+  `exp` mediumint(8) unsigned NOT NULL default '0',
   PRIMARY KEY  (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;

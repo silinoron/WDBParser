@@ -29,7 +29,7 @@
     <wdbElement name="QuestItem5" type="uinteger" />
     <wdbElement name="QuestItem6" type="uinteger" />
     <wdbElement name="MovementId" type="uinteger" />
-    <wdbElement name="Unk" type="uinteger" />
+    <wdbElement name="exp" type="uinteger" />
   </wdbId>
   <wdbId name="questcache">
     <wdbElement name="Entry" type="uinteger" key="yes" />
@@ -309,6 +309,6 @@
     <wdbElement name="QuestItem4" type="uinteger" />
     <wdbElement name="QuestItem5" type="uinteger" />
     <wdbElement name="QuestItem6" type="uinteger" />
-    <wdbElement name="Unk" type="uinteger" />
+    <wdbElement name="exp" type="uinteger" />
   </wdbId>
 </wdbDef>

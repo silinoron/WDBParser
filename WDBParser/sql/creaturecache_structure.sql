@@ -26,7 +26,7 @@ CREATE TABLE `creaturecache` (
   `QuestItem5` int(10) unsigned NOT NULL default '0',
   `QuestItem6` int(10) unsigned NOT NULL default '0',
   `MovementID` int(10) unsigned NOT NULL default '0',
-  `Unk` int(10) unsigned NOT NULL default '0',
+  `exp` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`Entry`),
   KEY `idx_name` (`Name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
