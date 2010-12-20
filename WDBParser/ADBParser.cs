@@ -70,10 +70,8 @@ namespace WDBParser
             var end = false;
             if (maxID != 0)
             {
-                var size = maxID * 4 - 48;
-
-                reader.ReadBytes(size);     // an index for rows
-                reader.ReadBytes(size * 2); // a memory allocation bank
+                reader.ReadBytes(maxID * 4 - 48);
+                reader.ReadBytes(maxID * 2 - 48 * 2);
             }
 
             Console.WriteLine("Signature: {0}, build {1}, locale {2}, fieldcount {3}", sig, build, locale, fieldsCount);
